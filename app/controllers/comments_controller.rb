@@ -6,7 +6,6 @@ class CommentsController < ApplicationController
   else
     render :new
   end
-  end
 
   private
   def comment_params
